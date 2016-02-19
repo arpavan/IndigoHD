@@ -7,10 +7,11 @@ class ProCustomers(models.Model):
     CustomerID = models.IntegerField()
     CompanyName = models.CharField(max_length=100)
     CustomerSpend = models.DecimalField(max_digits=10, decimal_places=2)
-    Trade = models.CharField(max_length=100)
-    Zip = models.CharField(max_length=6)
-
-	@property
+    @property
     def CustomerSpend(self):
         return "$%s" % self.CustomerSpend
 
+    Trade = models.CharField(max_length=100)
+    Zip = models.CharField(max_length=6)
+
+	
