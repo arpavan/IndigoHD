@@ -56,6 +56,11 @@
                       function displayTable() {
                         document.getElementById("byProname").style.visibility = "visible";
                       }
+                      function updateValue() {
+                        var val = document.getElementById("selCategories").value;
+                        alert(val);
+                        document.getElementById("hInput").value = val;
+                      }
                 
         </script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -153,19 +158,20 @@
                                 </div>
                                 <br>
                                 <div id ="byCategory" style ="visibility : hidden;">
-                                    <select id="selCategories" style="    width: 601.8181817531586px;    height: 101.81818175315857px;" onchange="myFunction()" multiple>
-                                        <option style="color: black;" value="Commercial Property Managers">Commercial Property Managers
-                                        <option style="color: black;"value="Government">Government
-                                        <option style="color: black;"value="Remodler">Appliance
-                                        <option style="color: black;"value="Electician">Electrician
+                                    <select id="selCategories" style="width: 601.8181817531586px; height: 101.81818175315857px;" onchange="updateValue()" multiple>
+                                        <option id="category" style="color: black;" value="Commercial Property Managers">Commercial Property Managers
+                                        <option id="category" style="color: black;" value="Government">Government
+                                        <option id="category" style="color: black;" value="Remodler">Appliance
+                                        <option id="category" style="color: black;" value="Electician">Electrician
                                     </select>
                                 </div>
                                 <br>
                                 <br><br>
                                 <br>
                                 <br>
-                                <button  type="submit" id="search" onclick="displayTable()" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Submit</button>
-                                <button  type="submit" id="submit" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Search...</button>
+                                <input type="hidden" id="hInput" name="hInput"/>
+                                <button  type="submit" id="submit" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg">Submit</button>
+                                <button  type="submit" id="search" onclick="displayTable()" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Search...</button>
                                 <button  type="button" onclick="back()" style="    border-left-width: 0px; margin-left: 100px;" class="btn btn-primary btn-lg ">Go Back</button><br>
                             </form>
                         </div>

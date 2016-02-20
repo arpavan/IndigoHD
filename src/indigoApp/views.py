@@ -22,9 +22,10 @@ def pro(request):
 			proname = request.POST.get('txtProName')
 
 		elif(selection == 'byCategory'):
-			category = request.POST.get('byCategory')
+			category = request.POST.get('hInput')
+			print category
 			pro = ProUsers()
-			response = pro.getUsers('Appliance', None)
+			response = pro.getUsers(category, None)
 			for user in response:
 				print user.CompanyName
 				print user.Rating
