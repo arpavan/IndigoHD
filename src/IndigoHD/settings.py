@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'indigoApp.apps.IndigoappConfig'
+	'indigoApp',
 ]
 
 MIDDLEWARE_CLASSES = [

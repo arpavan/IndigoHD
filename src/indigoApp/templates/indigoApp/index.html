@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>My First Django App!!</h1>
+{{ sample_text }}
+<form action="demo/" method="POST">
+	{% csrf_token %}
+  What's your name? <input id="txtName" type="text" name="txtName"><br>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
