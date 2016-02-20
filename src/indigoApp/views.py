@@ -32,7 +32,7 @@ def pro(request):
 			category = request.POST.get('hInput')
 			print category
 			pro = ProUsers()
-			response = pro.getUsers(category, None)
+			response = pro.getUsers(category.lower(), None)
 			for user in response:
 				print user.CompanyName
 				print user.Rating
