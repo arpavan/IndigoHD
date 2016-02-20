@@ -31,10 +31,14 @@
 		}
 	function error() {
 		if(!document.getElementById('byCategory').checked  && !document.getElementById('byProname').checked) {
-			document.getElementById(error).style.visibility = "visible";
+			document.getElementById("error").style.visibility = "visible";
 		
 		}
+
 	}
+	      function back() {
+               window.location="/indigoApp";
+            }
       </script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -95,7 +99,7 @@
 <input type="radio" name="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
 </div>
 <br>
-<div id ="error" class="alert alert-danger">
+<div id ="error" style ="visibility : hidden" class="alert alert-danger">
   <strong>Error!</strong> Please select a category
 </div>
 
@@ -119,7 +123,8 @@ Enter the PRO Name :  <input type="text" id="answer" size="20">
 <br>
 <br>
 				   		 
-				   <button  type="button" onclick="error()" class="btn btn-primary btn-lg ">Search</button><br>
+				   <button  type="button" onclick="error()" class="btn btn-primary btn-lg ">Search</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   <button  type="button" onclick="back()" class="btn btn-primary btn-lg "> Go Back </button><br>
 					
 </form>
 <!-- On rows -->
