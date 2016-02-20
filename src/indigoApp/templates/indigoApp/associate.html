@@ -72,11 +72,11 @@
                         </div>
                         <form action="." method="POST">
                             {% csrf_token %}
-                            <select id="selCategory" onchange="myFunction()" multiple>
-                                <option style="color: black;" value="Commercial Property Managers">Commercial Property Managers
-                                <option style="color: black;"value="Government">Government
-                                <option style="color: black;"value="Remodler">Remodler
-                                <option style="color: black;"value="Electician">Electrician
+                            <select id="selCategory" name="selCategory" onchange="myFunction()" multiple>
+                                <option name="option" style="color: black;" value="Commercial Property Managers">Commercial Property Managers
+                                <option name="option" style="color: black;"value="Government">Government
+                                <option name="option" style="color: black;"value="Remodler">Remodler
+                                <option name="option" style="color: black;"value="Electician">Electrician
                             </select>
                             <button  type="submit" id="find" onclick="search();" class="btn btn-default" style="margin-bottom: 50px;">Submit</button>
                         </form>

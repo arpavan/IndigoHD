@@ -16,6 +16,7 @@ def pro(request):
 	#if request type is POST, process data
 	if request.method == 'POST':
 		selection = request.POST.get('byCategory')
+		print selection
 		if(selection == 'byProname'):
 			proname = request.POST.get('txtProName')
 #			SQL query
@@ -28,6 +29,7 @@ def pro(request):
 def help(request):
 	if request.method == 'POST':
 		searchQuery = request.POST.get('answer')
+		print searchQuery
 #		SQL query
 		print request
 	return render(request, 'indigoApp/help.html')
@@ -36,7 +38,7 @@ def associate(request):
 	if request.method == 'POST':
 		selection = request.POST.get('selCategory')
 #		SQL query
-		print request
+		print selection
 	return render(request, 'indigoApp/associate.html')
 
 def demo(request):
