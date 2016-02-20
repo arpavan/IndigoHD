@@ -112,12 +112,13 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>John</td>
-                                                <td>Carter</td>
-                                                <td>johncarter@mail.com</td>
-                                            </tr>
+                                            {% for associates in response_obj %}
+                                                <tr>
+                                                    <td>{{ pro.CompanyName }}</td>
+                                                    <td>{{ pro.Rating }}</td>
+                                                    <!-- <td>{{ pro.IsPro }}</td> -->
+                                                </tr>
+                                            {% endfor %}
                                             <tr>
                                                 <td>2</td>
                                                 <td>Peter</td>
