@@ -94,45 +94,35 @@
                                     <option id="category" style="color: black;" value="Seasonal" />Seasonal
                                     <option id="category" style="color: black;" value="Storage" />Storage
                             </select>
-                            <input type="hidden" id="hInput" name="hInput"/>
+                            <input type="hidden" id="hInput" name="hInput"/> <br><br>
                             <button  type="submit" id="submit" tyle="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg">Submit</button>
                             <button  type="button" onclick="back()" class="btn btn-primary btn-lg "> Go Back </button><br>
                         </form>
                         <div id = "searchCategory">
                             <div id ="byProname" style ="left: 50%;  ">
-                                <div style="visibility:hidden; left: -50%;">
-                                    Enter the PRO Name : <!-- <input type="text" id="answer" size="20">-->
-                                    <table  class="table table-striped table-condensed">
-                                        <thead>
-                                            <tr>
-                                                <th>Row</th>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Email</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {% for associates in response_obj %}
+                                <div style="visibility:visible; left: -50%;">
+
+                                                                    <table  style="color: black;" class="table table-striped">
+
+                                            <tbody>
+                                            <thead>
                                                 <tr>
-                                                    <td>{{ associates.CompanyName }}</td>
-                                                    <td>{{ associates.Rating }}</td>
-                                                    <!-- <td>{{ pro.IsPro }}</td> -->
+
+                                                    <th>Associate Name</th>
+                                                    <th> Rating</th>
+                                                    <th> Select</th>
                                                 </tr>
-                                            {% endfor %}
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Peter</td>
-                                                <td>Parker</td>
-                                                <td>peterparker@mail.com</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>John</td>
-                                                <td>Rambo</td>
-                                                <td>johnrambo@mail.com</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                            </thead>
+
+                                                {% for pro in response_obj %}
+                                                <tr>
+                                                    <td>{{ pro.CompanyName }}</td>
+                                                    <td>{{ pro.Rating }}</td>
+                                                    <td><input type="checkbox" name="select" value="{{ pro.CompanyName }}"></td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
                                 </div>
                                 <br>
                                 <br>
