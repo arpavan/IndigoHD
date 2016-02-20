@@ -53,6 +53,9 @@
                  function back() {
                          window.location="/indigoApp";
                       }
+                      function displayTable() {
+                        document.getElementById("byProname").style.visibility = "visible";
+                      }
                 
         </script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -105,7 +108,7 @@
                                 <input type="radio"  name="byCategory" onclick="check(this.value)" value="byProname">Search PRO By Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                 <input type="radio" name="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
                                 <br>
-                               <div id ="byProname" style ="visibility : hidden; position: absolute; left: 50%;  ">
+                               <div id ="byProname" style =" position: absolute; left: 50%;  ">
                                     <div style="position: relative; left: -50%;">
                                         <table  style="color: black;" class="table table-striped">
                                             <thead>
@@ -117,11 +120,11 @@
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                                {% for pro in pro_list %}
+                                                {% for pro in response_obj %}
                                                 <tr>
                                                     <td>{{ pro.CompanyName }}</td>
                                                     <td>{{ pro.CustomerSpend }}</td>
-                                                    <td>{{ pro.IsPro }}$</td>
+                                                    <td>{{ pro.IsPro }}</td>
                                                 </tr>
                                                 {% endfor %}
                                                 <tr>
@@ -153,7 +156,7 @@
                                     <select id="selCategories" style="    width: 601.8181817531586px;    height: 101.81818175315857px;" onchange="myFunction()" multiple>
                                         <option style="color: black;" value="Commercial Property Managers">Commercial Property Managers
                                         <option style="color: black;"value="Government">Government
-                                        <option style="color: black;"value="Remodler">Remodler
+                                        <option style="color: black;"value="Remodler">Appliance
                                         <option style="color: black;"value="Electician">Electrician
                                     </select>
                                 </div>
@@ -161,7 +164,7 @@
                                 <br><br>
                                 <br>
                                 <br>
-                                <button  type="submit" id="search" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Submit</button>
+                                <button  type="submit" id="search" onclick="displayTable()" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Submit</button>
                                 <button  type="submit" id="submit" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Search...</button>
                                 <button  type="button" onclick="back()" style="    border-left-width: 0px; margin-left: 100px;" class="btn btn-primary btn-lg ">Go Back</button><br>
                             </form>

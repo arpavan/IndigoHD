@@ -28,7 +28,10 @@ def pro(request):
 			for user in response:
 				print user.CompanyName
 				print user.Rating
-		print request
+			context = {'response_obj' : response}
+			return render(request, 'indigoApp/pro.html', context)
+#		print request
+
 	return render(request, 'indigoApp/pro.html')
 	
 def help(request):
