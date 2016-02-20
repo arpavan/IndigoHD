@@ -46,7 +46,7 @@ def help(request):
 	if request.method == 'POST':
 		searchQuery = request.POST.get('answer')
 		link = DiyLinks()
-		response = link.getDiyLinks('fan')
+		response = link.getDiyLinks(searchQuery)
 		print response
 		print searchQuery
 		print request
@@ -56,9 +56,9 @@ def help(request):
 	
 def associate(request):
 	if request.method == 'POST':
-		selection = request.POST.get('selCategory')
+		selection = request.POST.get('hInput')
 		associates = Associates()
-		response = associates.getAssociatesFromCategory('Lumber')
+		response = associates.getAssociatesFromCategory(selection)
 		for user in response:
 			print user.CompanyName
 			print user.Rating
