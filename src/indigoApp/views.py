@@ -25,6 +25,9 @@ def pro(request):
 			proname = request.POST.get('txtProName')
 			response = pro.getUserByName('Rala')
 			print "Response" +response.CompanyName
+
+			context = {'response_obj' : response}
+			return render(request, 'indigoApp/pro.html', context)
 		elif(selection == 'byCategory'):
 			category = request.POST.get('byCategory')
 
@@ -46,7 +49,8 @@ def help(request):
 		print response
 		print searchQuery
 		print request
-	return render(request, 'indigoApp/help.html')
+		context = {'response_obj' : response}
+		return render(request, 'indigoApp/help.html', context)
 	
 def associate(request):
 	if request.method == 'POST':
@@ -57,7 +61,8 @@ def associate(request):
 			print user.CompanyName
 			print user.Rating
 		print selection
-	return render(request, 'indigoApp/associate.html')
+		context = {'response_obj' : response}
+		return render(request, 'indigoApp/associate.html', context)
 
 def demo(request):
 	#orm = MyModelForm()
