@@ -1,5 +1,0 @@
-lib\*
-bin\*
-include\*
-src\IndigoHD\__pycache__\*
-pip-selfcheck.json

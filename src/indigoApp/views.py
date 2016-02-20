@@ -7,6 +7,9 @@ from django.http import HttpResponse
 #    return HttpResponse("Hello, world!")
 
 def index(request):
+#	context = {'sample_text': "Hello World"}
+#	return render(request, 'indigoApp/index.html', context)
+#    return HttpResponse("Hello, world!")
     return render(request, 'indigoApp/home.html')
 
 def index2(request):
@@ -18,3 +21,7 @@ def index3(request):
 	
 def index4(request):
     return render(request, 'indigoApp/secondpage.html')
+
+#def demo(request):
+#	context = {'response_text': request.
+#	return render(request, 'indigoApp/demo.html', context)
