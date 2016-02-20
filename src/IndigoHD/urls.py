@@ -15,12 +15,11 @@ Including another URLconf
 """
 from django.conf.urls import include, url
 from django.contrib import admin
+from django.views.generic import RedirectView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-	url(r'^$', 'indigoApp.views.index'),
+#	url(r'^$', indigoApp.views.index'),
+    url(r'^$', RedirectView.as_view(url='indigoApp/')),
     url(r'^indigoApp/', include('indigoApp.urls')),
-	url(r'^firstpage', 'indigoApp.views.index2'),
-	url(r'^help', 'indigoApp.views.index3'),
-    url(r'^secondpage', 'indigoApp.views.index4'),
 ]
