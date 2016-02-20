@@ -18,5 +18,9 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+	url(r'^$', 'indigoApp.views.index'),
     url(r'^indigoApp/', include('indigoApp.urls')),
+	url(r'^firstpage', 'indigoApp.views.index2'),
+	url(r'^help', 'indigoApp.views.index3'),
+    url(r'^secondpage', 'indigoApp.views.index4'),
 ]
