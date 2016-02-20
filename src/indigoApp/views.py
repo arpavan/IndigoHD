@@ -26,5 +26,5 @@ def demo(request):
 	#orm = MyModelForm()
 	text = "Hey there" + request.POST.get('txtName')
 	context = {'response_text': text}
-	print request
+	#print request
 	return render(request, 'indigoApp/demo.html', context)

@@ -22,12 +22,29 @@
 
     <link href="{% static 'http://fonts.googleapis.com/css?family=Montserrat:400,700' %}" rel="stylesheet" type="text/css">
     <link href="{% static 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' %}" rel="stylesheet" type="text/css">
+	
+<link rel="{% static 'stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' %}">
+<link rel="{% static 'stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css' %}">
+<script src="{% static 'https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js' %}"></script>
+<script src="{% static 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js' %}"></script>
+  
+  
       <script type="text/javascript">
 
 		function check(divid) {
 		document.getElementById("byCategory").style.visibility = "hidden";
 		document.getElementById("byProname").style.visibility = "hidden";
+		//document.getElementById("submit").style.visibility = "hidden";
 	    document.getElementById(divid).style.visibility = "visible";
+		if (divid=="byProname"){ 
+	    document.getElementById("submit").style.visibility = "visible";
+     	document.getElementById("search").style.visibility = "hidden";
+		}
+		else{ 
+	    document.getElementById("submit").style.visibility = "hidden";
+		document.getElementById("search").style.visibility = "visible";
+		}
+		
 		}
 	function error() {
 		if(!document.getElementById('byCategory').checked  && !document.getElementById('byProname').checked) {
@@ -35,7 +52,7 @@
 		
 		}
 
-	}
+	}			
 	      function back() {
                window.location="/indigoApp";
             }
@@ -87,7 +104,6 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                <div class="col-lg-12">
 
 <div class="alert alert-info" role="alert">
   <p>Select your search Criteria And Proceed Please !! </p>
@@ -99,15 +115,48 @@
 <input type="radio" name="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
 </div>
 <br>
-<div id ="error" style ="visibility : hidden" class="alert alert-danger">
+<div id ="error" style="visibility: hidden;margin-bottom: 0px;" class="alert alert-danger">
   <strong>Error!</strong> Please select a category
 </div>
+<br>
+<div id ="byProname" style ="visibility : hidden; position: absolute; left: 50%;  ">
+<div style="position: relative; left: -50%;">
 
-<div id ="byProname" style ="visibility : hidden">
-Enter the PRO Name :  <input type="text" id="answer" size="20">
+ <table  style="color: black;" class="table table-striped">
+        <thead>
+            <tr>
+                <th>Row</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter</td>
+                <td>Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John</td>
+                <td>Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 <br>
 <br>
+
+</div>
 <br>
 <div id ="byCategory" style ="visibility : hidden">
 
@@ -119,33 +168,18 @@ Enter the PRO Name :  <input type="text" id="answer" size="20">
   <option style="color: black;"value="Electician">Electrician
 </select>
 </div>
+<br>
+<br><br>
+<br>
+<br>
 
-<br>
-<br>
-				   		 
-				   <button  type="button" onclick="error()" class="btn btn-primary btn-lg ">Search</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+				   <button  type="button" id="submit" style="position: absolute; visibility: hidden;" onclick="error();" class="btn btn-primary btn-lg ">Submit</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+	   		 	   <button  type="button" id="search" style="position: absolute;margin-left:-100px; visibility: hidden;" onclick="error();" class="btn btn-primary btn-lg ">Search...</button>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
 				   <button  type="button" onclick="back()" class="btn btn-primary btn-lg "> Go Back </button><br>
 					
 </form>
-<!-- On rows -->
-<tr class="table-active">...</tr>
-<tr class="table-success">...</tr>
-<tr class="table-warning">...</tr>
-<tr class="table-danger">...</tr>
-<tr class="table-info">...</tr>
-
-<!-- On cells (`td` or `th`) -->
-<tr>
-  <td class="table-active">...</td>
-  <td class="table-success">...</td>
-  <td class="table-warning">...</td>
-  <td class="table-danger">...</td>
-  <td class="table-info">...</td>
-</tr>
-
-
 		<!--	<button type="button" class="btn btn-primary">Back</button>-->
-                </div>
+                
                 </div>
             </div>
         </div>
