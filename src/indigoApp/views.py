@@ -27,20 +27,15 @@ def pro(request):
 	
 def help(request):
 	if request.method == 'POST':
-		searchQuery = request.POST.get('optCategory')
+		searchQuery = request.POST.get('answer')
 #		SQL query
 		print request
 	return render(request, 'indigoApp/help.html')
 	
 def associate(request):
 	if request.method == 'POST':
-		selection = request.POST.get('byCategory')
-		if(selection == 'byProname'):
-			proname = request.POST.get('txtProName')
-#			SQL query
-		elif(selection == 'byCategory'):
-			category = request.POST.get('optCategory')
-#			SQL query
+		selection = request.POST.get('selCategory')
+#		SQL query
 		print request
 	return render(request, 'indigoApp/associate.html')
 
