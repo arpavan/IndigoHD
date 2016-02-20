@@ -1,4 +1,4 @@
-from keywordScrape import KeywordProvider
+#from keywordScrape import KeywordProvider
 from models import CategoryCustomerMap
 from models import Customers
 
@@ -9,8 +9,8 @@ class ProUsers:
             return self.getUsersFromCategory(category)
 
         if keyword:
-            keywords = KeywordProvider.getKeywords(KeywordProvider, keyword)
-            return self.getUsersFromKeyword(keywords)
+            #keywords = KeywordProvider.getKeywords(KeywordProvider, keyword)
+            return self.getUsersFromKeyword(keyword)
 
 
     def getUsersFromCategory(categoryInput):
