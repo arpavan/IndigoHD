@@ -107,13 +107,13 @@ dict = {'Appliance': 'http://www.homedepot.com/c/Appliance_Upgrades',
         'Building Materials': 'http://www.homedepot.com/c/project_how_to_project_guides_building_materials',
         'Decor':'http://www.homedepot.com/c/project_how_to_project_guides_decor',
         'Doors and Windows':'http://www.homedepot.com/c/project_how_to_project_guides_doors_windows',
-        'Electical':'http://www.homedepot.com/c/project_how_to_project_guides_electrical',
+        'Electrical':'http://www.homedepot.com/c/project_how_to_project_guides_electrical',
         'Flooring':'http://www.homedepot.com/c/flooring_upgrades',
         'Heating and Cooling':'http://www.homedepot.com/c/project_how_to_project_guides_heating_cooling',
         'Kitchen':'http://www.homedepot.com/c/kitchen_ideas',
         'Lighting and Fans':'http://www.homedepot.com/c/project_how_to_project_guides_lighting_fans',
         'Lumber':'http://www.homedepot.com/c/project_how_to_project_guides_lumber_composites',
-        'Home Maintainance':'http://www.homedepot.com/c/home_maintenance_diy_ideas',
+        'Home Maintenance':'http://www.homedepot.com/c/home_maintenance_diy_ideas',
         'Outdoor':'http://www.homedepot.com/c/outdoor_diy_ideas',
         'Plumbing':'http://www.homedepot.com/c/project_how_to_project_guides_plumbing',
         'Seasonal':'http://www.homedepot.com/c/project_how_to_project_guides_seasonal',
@@ -147,12 +147,12 @@ for key in dict:
         tree = html.fromstring(page.content)
         try:
             keywords = tree.xpath( "//meta[@name='keywords']")[0].get("content")
-            completeKeywords[1:1] = filter(None, keywords.split(","))
+            completeKeywords[1:1] = filter(None, keywords.lower().split(","))
             for keyword in keywords.split(","):
                 if not keyword:
-                    print key.strip() + "," + key.strip() + "," + web
+                    print key.strip().lower() + "," + key.strip().lower() + "," + web
                 else:
-                    print keyword.strip() + "," + key.strip() + "," + web
+                    print keyword.strip().lower() + "," + key.strip().lower() + "," + web
         except:
             print "Error getting keywords for" + web
 
