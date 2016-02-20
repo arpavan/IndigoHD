@@ -58,7 +58,7 @@ def associate(request):
 	if request.method == 'POST':
 		selection = request.POST.get('hInput')
 		associates = Associates()
-		response = associates.getAssociatesFromCategory(selection)
+		response = associates.getAssociatesFromCategory(selection.lower())
 		for user in response:
 			print user.CompanyName
 			print user.Rating
