@@ -21,5 +21,8 @@ class DiyLinks:
         #     for categoryRelatedUrl in categoryRelatedUrls:
         #         categoryUrls.append(categoryRelatedUrl.Url)
         urls.extend(categoryUrls)
+
+        if len(urls) is None:
+            urls.append("http://www.homedepot.com/s/"+keyword)
         return set(urls)
 
