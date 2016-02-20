@@ -52,6 +52,7 @@ def help(request):
 		print request
 		context = {'response_obj' : response}
 		return render(request, 'indigoApp/help.html', context)
+	return render(request, 'indigoApp/help.html')
 	
 def associate(request):
 	if request.method == 'POST':
@@ -64,6 +65,7 @@ def associate(request):
 		print selection
 		context = {'response_obj' : response}
 		return render(request, 'indigoApp/associate.html', context)
+	return render(request, 'indigoApp/associate.html')
 
 def demo(request):
 	#orm = MyModelForm()

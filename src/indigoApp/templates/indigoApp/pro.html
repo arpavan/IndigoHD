@@ -109,7 +109,7 @@
                         <div id = "searchCategory">
                             <form action="." method="POST">
                                 {% csrf_token %}
-                                <input type="radio"  name="byCategory" onclick="check(this.value)" value="byProname">Search PRO By Name &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                                <input type="radio"  name="byCategory" onclick="check(this.value)" value="byProname">Search PRO By Name 
                                 <input type="radio" name="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
                                 <br>
                                <div id ="byProname" style =" position: absolute; left: 50%;  ">
@@ -158,12 +158,22 @@
                                 <br>
                                 <div id ="byCategory" style ="visibility : hidden;">
                                     <select id="selCategories" style="width: 601.8181817531586px; height: 101.81818175315857px;" onchange="updateValue()" multiple>
-                                        <option id="category" style="color: black;" value="Commercial Property Managers" />Commercial Property Managers
-                                        <option id="category" style="color: black;" value="Government" />Government
                                         <option id="category" style="color: black;" value="Appliance" />Appliance
-                                        <option id="category" style="color: black;" value="Electician" />Electrician
-                                        <option id="category" style="color: black;" value="Electician" />Electrician
-
+                                        <option id="category" style="color: black;" value="Bath" />Bath
+                                        <option id="category" style="color: black;" value="Building Materials" />Building Materials
+                                        <option id="category" style="color: black;" value="Decor" />Decor
+                                        <option id="category" style="color: black;" value="Doors and Windows" />Doors and Windows
+                                        <option id="category" style="color: black;" value="Electrical" />Electrical
+                                        <option id="category" style="color: black;" value="Flooring" />Flooring
+                                        <option id="category" style="color: black;" value="Heating and Cooling" />Heating and Cooling
+                                        <option id="category" style="color: black;" value="Kitchen" />Kitchen
+                                        <option id="category" style="color: black;" value="Lighting and Fans" />Lighting and Fans
+                                        <option id="category" style="color: black;" value="Lumber" />Lumber
+                                        <option id="category" style="color: black;" value="Home Maintenance" />Home Maintenance
+                                        <option id="category" style="color: black;" value="Outdoor" />Outdoor
+                                        <option id="category" style="color: black;" value="Plumbing" />Plumbing
+                                        <option id="category" style="color: black;" value="Seasonal" />Seasonal
+                                        <option id="category" style="color: black;" value="Storage" />Storage
                                     </select>
 
 
