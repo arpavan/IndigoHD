@@ -94,8 +94,8 @@
                         <div id = "searchCategory">
                             <form action="." method="POST">
                                 {% csrf_token %}
-                                <input type="radio" name="byCategory" onclick="check(this.value)" value="byProname">Search PRO By Name
-                                <input type="radio" name="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
+                                <input type="radio" id="byCategory" onclick="check(this.value)" value="byProname">Search PRO By Name
+                                <input type="radio" id="byCategory" onclick="check(this.value)" value="byCategory">Search By Category<br>
                                 <br>
                                 <div id ="error" style="visibility: hidden;margin-bottom: 0px;" class="alert alert-danger">
                                     <strong>Error!</strong> Please select a category
@@ -145,7 +145,7 @@
                                     <br>
                                 </div>
                                 <br>
-                                <div id ="optCategory" style ="visibility : hidden">
+                                <div id ="byCategory" style ="visibility : hidden">
                                     <select id="selCategories" onchange="myFunction()" multiple>
                                         <option style="color: black;" value="Commercial Property Managers">Commercial Property Managers
                                         <option style="color: black;"value="Government">Government
@@ -157,7 +157,8 @@
                                 <br><br>
                                 <br>
                                 <br>
-                                <button  type="submit" id="search" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Search...</button>
+                                <button  type="submit" id="search" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Submit</button>
+                                <button  type="submit" id="submit" style="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg ">Search...</button>
                                 <button  type="button" onclick="back()" class="btn btn-primary btn-lg ">Go Back</button><br>
                             </form>
                         </div>

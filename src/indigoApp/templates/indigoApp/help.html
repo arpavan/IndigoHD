@@ -103,6 +103,7 @@
                         <p style="font-size:150%; "> What Are you looking for Today ? </p>
                         <br>
                         <form action="." method="POST">
+                            {% csrf_token %}
                             <input type="text" id="answer" style="color:black;    margin-top: 0px;
                                 padding-top: 10px;padding-bottom: 10px;" size="70">
                             <br><br>

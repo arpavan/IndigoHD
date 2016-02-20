@@ -20,7 +20,7 @@ def pro(request):
 			proname = request.POST.get('txtProName')
 #			SQL query
 		elif(selection == 'byCategory'):
-			category = request.POST.get('optCategory')
+			category = request.POST.get('byCategory')
 #			SQL query
 		print request
 	return render(request, 'indigoApp/pro.html')
