@@ -3,25 +3,25 @@ from models import CategoryCustomerMap
 from models import Customers
 from django.shortcuts import get_object_or_404
 
-class ProUsers:
+class Associates:
 
-    def getUsers(self, category, keyword):
+    def getAssociates(self, category, keyword):
         if category:
-            return self.getUsersFromCategory(category)
+            return self.getAssociatesFromCategory(category)
 
         if keyword:
             #keywords = KeywordProvider.getKeywords(KeywordProvider, keyword)
-            return self.getUsersFromKeyword(keyword)
+            return self.getAssociatesFromKeyword(keyword)
 
-    def getUserByName(self, name):
-        return Customers.objects.get(CompanyName=name, IsPro=1)
+    def getAssociatesByName(self, name):
+        return Customers.objects.get(CompanyName=name, IsPro=0)
 
-    def getUsersFromCategory(self, categoryInput):
+    def getAssociatesFromCategory(self, categoryInput):
         customers = []
         categoryCustomers = CategoryCustomerMap.objects.filter(Category=categoryInput)
         for categoryCustomer in categoryCustomers:
             try:
-                customer = Customers.objects.get(id=categoryCustomer.CustomerId, IsAvailable=1, IsPro=1)
+                customer = Customers.objects.get(id=categoryCustomer.CustomerId, IsAvailable=1, IsPro=0)
                 if customer:
                     customers.append(customer)
             except:
@@ -31,7 +31,7 @@ class ProUsers:
         return customers
 
 
-    def getUsersFromKeyword(self, keyword):
+    def getAssociatesFromKeyword(self, keyword):
         return
 
 

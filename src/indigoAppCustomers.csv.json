@@ -5,7 +5,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 7003,
-            "CompanyName": "Looon Systems",
+            "CompanyName": "looon systems",
             "CustomerSpend": "1081934.14",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -18,7 +18,7 @@
         "fields": {
             "Rating": "4.5",
             "Zip": 44146,
-            "CompanyName": "Dotster",
+            "CompanyName": "dotster",
             "CustomerSpend": "2515006.16",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -31,7 +31,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 45840,
-            "CompanyName": "Yeddscro Systems",
+            "CompanyName": "yeddscro systems",
             "CustomerSpend": "3795092.59",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -44,7 +44,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 6516,
-            "CompanyName": "PlurSpace",
+            "CompanyName": "plurspace",
             "CustomerSpend": "2902622.09",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -57,7 +57,7 @@
         "fields": {
             "Rating": "4.5",
             "Zip": 54701,
-            "CompanyName": "Twisauce",
+            "CompanyName": "twisauce",
             "CustomerSpend": "1281963.51",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -70,7 +70,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 55033,
-            "CompanyName": "Vertbox",
+            "CompanyName": "vertbox",
             "CustomerSpend": "1156031.47",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -83,7 +83,7 @@
         "fields": {
             "Rating": "4.5",
             "Zip": 1845,
-            "CompanyName": "Dotga Collective",
+            "CompanyName": "dotga collective",
             "CustomerSpend": "1047103.16",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -109,7 +109,7 @@
         "fields": {
             "Rating": "4.5",
             "Zip": 7501,
-            "CompanyName": "Youbo Labs",
+            "CompanyName": "youbo labs",
             "CustomerSpend": "1573984.75",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -123,7 +123,7 @@
             "Rating": 4,
             "Zip": 36532,
             "CompanyName": "xobee",
-            "CustomerSpend": "3745308.50",
+            "CustomerSpend": "3745308.5",
             "IsPro": 1,
             "IsAvailable": 1,
             "Password": "test"
@@ -135,7 +135,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 55303,
-            "CompanyName": "Rasense Collective",
+            "CompanyName": "rasense collective",
             "CustomerSpend": "1771696.89",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -161,7 +161,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 6824,
-            "CompanyName": "YouZing",
+            "CompanyName": "youzing",
             "CustomerSpend": "2055253.32",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -174,7 +174,7 @@
         "fields": {
             "Rating": "4.5",
             "Zip": 7076,
-            "CompanyName": "Rageo",
+            "CompanyName": "rageo",
             "CustomerSpend": "1623121.34",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -187,7 +187,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 75604,
-            "CompanyName": "PlurStar",
+            "CompanyName": "plurstar",
             "CustomerSpend": "1017759.68",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -200,7 +200,7 @@
         "fields": {
             "Rating": 4,
             "Zip": 1923,
-            "CompanyName": "Mykee Labs",
+            "CompanyName": "mykee labs",
             "CustomerSpend": "1830332.54",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -226,7 +226,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 46322,
-            "CompanyName": "Inifish",
+            "CompanyName": "inifish",
             "CustomerSpend": "504461.26",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -239,7 +239,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 21113,
-            "CompanyName": "BoZing",
+            "CompanyName": "bozing",
             "CustomerSpend": "599466.85",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -252,7 +252,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 60451,
-            "CompanyName": "Jamee",
+            "CompanyName": "jamee",
             "CustomerSpend": "521814.22",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -265,7 +265,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 54401,
-            "CompanyName": "Glifspace",
+            "CompanyName": "glifspace",
             "CustomerSpend": "945086.57",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -278,8 +278,8 @@
         "fields": {
             "Rating": 3,
             "Zip": 46901,
-            "CompanyName": "Cloudify Systems",
-            "CustomerSpend": "903922.70",
+            "CompanyName": "cloudify systems",
+            "CustomerSpend": "903922.7",
             "IsPro": 1,
             "IsAvailable": 1,
             "Password": "test"
@@ -291,7 +291,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 22180,
-            "CompanyName": "Truzing Collective",
+            "CompanyName": "truzing collective",
             "CustomerSpend": "977680.95",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -304,7 +304,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 11720,
-            "CompanyName": "Vertsauce Labs",
+            "CompanyName": "vertsauce labs",
             "CustomerSpend": "790117.18",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -330,7 +330,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 38671,
-            "CompanyName": "QuirbBee",
+            "CompanyName": "quirbbee",
             "CustomerSpend": "721669.81",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -343,7 +343,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 43612,
-            "CompanyName": "Rabo Media",
+            "CompanyName": "rabo media",
             "CustomerSpend": "628326.77",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -357,7 +357,7 @@
             "Rating": 3,
             "Zip": 11710,
             "CompanyName": "cloudzizzl",
-            "CustomerSpend": "578283.60",
+            "CustomerSpend": "578283.6",
             "IsPro": 1,
             "IsAvailable": 1,
             "Password": "test"
@@ -369,7 +369,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 33020,
-            "CompanyName": "GlifDoo",
+            "CompanyName": "glifdoo",
             "CustomerSpend": "517367.15",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -382,7 +382,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 23059,
-            "CompanyName": "YouKee",
+            "CompanyName": "youkee",
             "CustomerSpend": "826169.05",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -395,7 +395,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 4401,
-            "CompanyName": "Janet",
+            "CompanyName": "janet",
             "CustomerSpend": "599132.01",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -408,7 +408,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 11756,
-            "CompanyName": "ILy",
+            "CompanyName": "ily",
             "CustomerSpend": "526587.72",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -434,7 +434,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 20901,
-            "CompanyName": "IniSter",
+            "CompanyName": "inister",
             "CustomerSpend": "652658.52",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -447,7 +447,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 49684,
-            "CompanyName": "Xogo Designs",
+            "CompanyName": "xogo designs",
             "CustomerSpend": "923989.57",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -460,7 +460,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 23059,
-            "CompanyName": "Loonico Labs",
+            "CompanyName": "loonico labs",
             "CustomerSpend": "640513.07",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -473,7 +473,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 20170,
-            "CompanyName": "Trumo",
+            "CompanyName": "trumo",
             "CustomerSpend": "673800.06",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -499,7 +499,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 18944,
-            "CompanyName": "Adkee",
+            "CompanyName": "adkee",
             "CustomerSpend": "799365.61",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -512,7 +512,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 48237,
-            "CompanyName": "Rala",
+            "CompanyName": "rala",
             "CustomerSpend": "761692.83",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -538,7 +538,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 48348,
-            "CompanyName": "Bodoo Media",
+            "CompanyName": "bodoo media",
             "CustomerSpend": "577394.77",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -564,7 +564,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 14424,
-            "CompanyName": "LiveSy",
+            "CompanyName": "livesy",
             "CustomerSpend": "660744.47",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -577,7 +577,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 11784,
-            "CompanyName": "Adkee",
+            "CompanyName": "adkee",
             "CustomerSpend": "520677.79",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -590,7 +590,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 15206,
-            "CompanyName": "Remnit",
+            "CompanyName": "remnit",
             "CustomerSpend": "589372.19",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -603,7 +603,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 8050,
-            "CompanyName": "IniMee",
+            "CompanyName": "inimee",
             "CustomerSpend": "681898.76",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -616,7 +616,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 14120,
-            "CompanyName": "Smugbo Systems",
+            "CompanyName": "smugbo systems",
             "CustomerSpend": "535079.88",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -642,7 +642,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 34952,
-            "CompanyName": "Raify",
+            "CompanyName": "raify",
             "CustomerSpend": "359352.69",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -655,7 +655,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 44122,
-            "CompanyName": "SkoBo",
+            "CompanyName": "skobo",
             "CustomerSpend": "353414.44",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -681,7 +681,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 8205,
-            "CompanyName": "Plurbo",
+            "CompanyName": "plurbo",
             "CustomerSpend": "337676.86",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -694,7 +694,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 61604,
-            "CompanyName": "Youhop Labs",
+            "CompanyName": "youhop labs",
             "CustomerSpend": "297077.98",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -720,7 +720,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 30180,
-            "CompanyName": "Fildoodle",
+            "CompanyName": "fildoodle",
             "CustomerSpend": "487926.26",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -733,7 +733,7 @@
         "fields": {
             "Rating": "3.5",
             "Zip": 10451,
-            "CompanyName": "ISense",
+            "CompanyName": "isense",
             "CustomerSpend": "251231.26",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -746,7 +746,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 14450,
-            "CompanyName": "Rembox",
+            "CompanyName": "rembox",
             "CustomerSpend": "349506.04",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -759,7 +759,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 15701,
-            "CompanyName": "Vertkee Labs",
+            "CompanyName": "vertkee labs",
             "CustomerSpend": "341985.79",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -772,7 +772,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 50701,
-            "CompanyName": "YoNico",
+            "CompanyName": "yonico",
             "CustomerSpend": "267303.46",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -785,8 +785,8 @@
         "fields": {
             "Rating": 3,
             "Zip": 46530,
-            "CompanyName": "Truyou",
-            "CustomerSpend": "264924.60",
+            "CompanyName": "truyou",
+            "CustomerSpend": "264924.6",
             "IsPro": 1,
             "IsAvailable": 1,
             "Password": "test"
@@ -798,8 +798,8 @@
         "fields": {
             "Rating": 3,
             "Zip": 10301,
-            "CompanyName": "Claxla Collective",
-            "CustomerSpend": "268014.50",
+            "CompanyName": "claxla collective",
+            "CustomerSpend": "268014.5",
             "IsPro": 1,
             "IsAvailable": 1,
             "Password": "test"
@@ -811,7 +811,7 @@
         "fields": {
             "Rating": "2.5",
             "Zip": 75115,
-            "CompanyName": "YeddZizzl",
+            "CompanyName": "yeddzizzl",
             "CustomerSpend": "5156.22",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -850,7 +850,7 @@
         "fields": {
             "Rating": "2.5",
             "Zip": 49423,
-            "CompanyName": "Twistar Labs",
+            "CompanyName": "twistar labs",
             "CustomerSpend": "9271.57",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -863,7 +863,7 @@
         "fields": {
             "Rating": 3,
             "Zip": 35124,
-            "CompanyName": "Prockr Designs",
+            "CompanyName": "prockr designs",
             "CustomerSpend": "71262.98",
             "IsPro": 1,
             "IsAvailable": 1,
@@ -876,8 +876,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 1",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 1",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -889,8 +889,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 2",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 2",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -902,8 +902,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 3",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 3",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -915,8 +915,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 4",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 4",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -928,8 +928,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 5",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 5",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -941,8 +941,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 6",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 6",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -954,8 +954,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 7",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 7",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -967,8 +967,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 8",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 8",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -980,8 +980,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 9",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 9",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -993,8 +993,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 10",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 10",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1006,8 +1006,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 11",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 11",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1019,8 +1019,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 12",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 12",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1032,8 +1032,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 13",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 13",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1045,8 +1045,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 14",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 14",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1058,8 +1058,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 15",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 15",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1071,8 +1071,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 16",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 16",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1084,8 +1084,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 17",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 17",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1097,8 +1097,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 18",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 18",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1110,8 +1110,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 19",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 19",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1123,8 +1123,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 20",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 20",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1136,8 +1136,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 21",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 21",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1149,8 +1149,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 22",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 22",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1162,8 +1162,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 23",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 23",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1175,8 +1175,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 24",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 24",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1188,8 +1188,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 25",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 25",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1201,8 +1201,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 26",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 26",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1214,8 +1214,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 27",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 27",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1227,8 +1227,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 28",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 28",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1240,8 +1240,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 29",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 29",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1253,8 +1253,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 30",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 30",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1266,8 +1266,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 31",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 31",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1279,8 +1279,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 32",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 32",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1292,8 +1292,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 33",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 33",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1305,8 +1305,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 34",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 34",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1318,8 +1318,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 35",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 35",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1331,8 +1331,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 36",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 36",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1344,8 +1344,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 37",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 37",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1357,8 +1357,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 38",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 38",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1370,8 +1370,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 39",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 39",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"
@@ -1383,8 +1383,8 @@
         "fields": {
             "Rating": 4,
             "Zip": 30144,
-            "CompanyName": "Associate 40",
-            "CustomerSpend": "0.00",
+            "CompanyName": "associate 40",
+            "CustomerSpend": 0,
             "IsPro": 0,
             "IsAvailable": 1,
             "Password": "test"

@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from getProUsers import ProUsers
+from getAssociates import Associates
+from getDiyLinks import DiyLinks
 
 # Create your views here.
 
@@ -17,10 +19,15 @@ def pro(request):
 	#if request type is POST, process data
 	if request.method == 'POST':
 		selection = request.POST.get('byCategory')
+		pro = ProUsers()
 		print selection
 		if(selection == 'byProname'):
 			proname = request.POST.get('txtProName')
+			response = pro.getUserByName('Rala')
+			print "Response" +response.CompanyName
 
+			context = {'response_obj' : response}
+			return render(request, 'indigoApp/pro.html', context)
 		elif(selection == 'byCategory'):
 			category = request.POST.get('hInput')
 			print category
@@ -38,17 +45,25 @@ def pro(request):
 def help(request):
 	if request.method == 'POST':
 		searchQuery = request.POST.get('answer')
+		link = DiyLinks()
+		response = link.getDiyLinks('fan')
+		print response
 		print searchQuery
-#		SQL query
 		print request
-	return render(request, 'indigoApp/help.html')
+		context = {'response_obj' : response}
+		return render(request, 'indigoApp/help.html', context)
 	
 def associate(request):
 	if request.method == 'POST':
 		selection = request.POST.get('selCategory')
-#		SQL query
+		associates = Associates()
+		response = associates.getAssociatesFromCategory('Lumber')
+		for user in response:
+			print user.CompanyName
+			print user.Rating
 		print selection
-	return render(request, 'indigoApp/associate.html')
+		context = {'response_obj' : response}
+		return render(request, 'indigoApp/associate.html', context)
 
 def demo(request):
 	#orm = MyModelForm()
