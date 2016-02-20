@@ -46,24 +46,26 @@ def help(request):
 	if request.method == 'POST':
 		searchQuery = request.POST.get('answer')
 		link = DiyLinks()
-		response = link.getDiyLinks('fan')
+		response = link.getDiyLinks(searchQuery)
 		print response
 		print searchQuery
 		print request
 		context = {'response_obj' : response}
 		return render(request, 'indigoApp/help.html', context)
+	return render(request, 'indigoApp/help.html')
 	
 def associate(request):
 	if request.method == 'POST':
-		selection = request.POST.get('selCategory')
+		selection = request.POST.get('hInput')
 		associates = Associates()
-		response = associates.getAssociatesFromCategory('Lumber')
+		response = associates.getAssociatesFromCategory(selection.lower())
 		for user in response:
 			print user.CompanyName
 			print user.Rating
 		print selection
 		context = {'response_obj' : response}
 		return render(request, 'indigoApp/associate.html', context)
+	return render(request, 'indigoApp/associate.html')
 
 def demo(request):
 	#orm = MyModelForm()

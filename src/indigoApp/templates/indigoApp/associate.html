@@ -23,6 +23,10 @@
                 function back() {
                    window.location="/indigoApp";
                 }
+                                      function updateValue() {
+                        var val = document.getElementById("selCategories").value;
+                        document.getElementById("hInput").value = val;
+                      }
                 //-->
         </script>
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -72,13 +76,27 @@
                         </div>
                         <form action="." method="POST">
                             {% csrf_token %}
-                            <select id="selCategory" name="selCategory" onchange="myFunction()" multiple>
-                                <option name="option" style="color: black;" value="Commercial Property Managers">Commercial Property Managers
-                                <option name="option" style="color: black;"value="Government">Government
-                                <option name="option" style="color: black;"value="Remodler">Remodler
-                                <option name="option" style="color: black;"value="Electician">Electrician
+                            <select id="selCategories" name="selCategories" onchange="updateValue()" multiple>
+                                    <option id="category" style="color: black;" value="Appliance" />Appliance
+                                    <option id="category" style="color: black;" value="Bath" />Bath
+                                    <option id="category" style="color: black;" value="Building Materials" />Building Materials
+                                    <option id="category" style="color: black;" value="Decor" />Decor
+                                    <option id="category" style="color: black;" value="Doors and Windows" />Doors and Windows
+                                    <option id="category" style="color: black;" value="Electrical" />Electrical
+                                    <option id="category" style="color: black;" value="Flooring" />Flooring
+                                    <option id="category" style="color: black;" value="Heating and Cooling" />Heating and Cooling
+                                    <option id="category" style="color: black;" value="Kitchen" />Kitchen
+                                    <option id="category" style="color: black;" value="Lighting and Fans" />Lighting and Fans
+                                    <option id="category" style="color: black;" value="Lumber" />Lumber
+                                    <option id="category" style="color: black;" value="Home Maintenance" />Home Maintenance
+                                    <option id="category" style="color: black;" value="Outdoor" />Outdoor
+                                    <option id="category" style="color: black;" value="Plumbing" />Plumbing
+                                    <option id="category" style="color: black;" value="Seasonal" />Seasonal
+                                    <option id="category" style="color: black;" value="Storage" />Storage
                             </select>
-                            <button  type="submit" id="find" onclick="search();" class="btn btn-default" style="margin-bottom: 50px;">Submit</button>
+                            <input type="hidden" id="hInput" name="hInput"/>
+                            <button  type="submit" id="submit" tyle="position: absolute;margin-left:-100px; visibility: hidden;" class="btn btn-primary btn-lg">Submit</button>
+                            <button  type="button" onclick="back()" class="btn btn-primary btn-lg "> Go Back </button><br>
                         </form>
                         <div id = "searchCategory">
                             <div id ="byProname" style ="left: 50%;  ">
@@ -94,12 +112,13 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>John</td>
-                                                <td>Carter</td>
-                                                <td>johncarter@mail.com</td>
-                                            </tr>
+                                            {% for associates in response_obj %}
+                                                <tr>
+                                                    <td>{{ associates.CompanyName }}</td>
+                                                    <td>{{ associates.Rating }}</td>
+                                                    <!-- <td>{{ pro.IsPro }}</td> -->
+                                                </tr>
+                                            {% endfor %}
                                             <tr>
                                                 <td>2</td>
                                                 <td>Peter</td>
@@ -118,9 +137,7 @@
                                 <br>
                                 <br>
                             </div>
-                            <button name="submit" type="button"  onclick="search()" class="btn btn-primary btn-lg ">Submit</button>
                             <!--  <button type="button" onclick="search()" class="btn btn-primary btn-lg ">Search</button>-->
-                            <button  type="button" onclick="back()" class="btn btn-primary btn-lg "> Go Back </button><br>
                         </div>
                     </div>
                 </div>

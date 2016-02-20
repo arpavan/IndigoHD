@@ -24,5 +24,5 @@ class DiyLinks:
 
         if len(urls) is None:
             urls.append("http://www.homedepot.com/s/"+keyword)
-        return set(urls)
+        return list(set(urls))
 
