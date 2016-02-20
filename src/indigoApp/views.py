@@ -8,6 +8,9 @@ def index(request):
 	return render(request, 'indigoApp/index.html', context)
 #    return HttpResponse("Hello, world!")
 
-#def demo(request):
-#	context = {'response_text': request.
-#	return render(request, 'indigoApp/demo.html', context)
+def demo(request):
+	#orm = MyModelForm()
+	text = "Hey there" + request.POST.get('txtName')
+	context = {'response_text': text}
+	print request
+	return render(request, 'indigoApp/demo.html', context)
