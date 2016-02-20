@@ -1,5 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from getProUsers import ProUsers
 
 # Create your views here.
 
@@ -19,10 +20,14 @@ def pro(request):
 		print selection
 		if(selection == 'byProname'):
 			proname = request.POST.get('txtProName')
-#			SQL query
+
 		elif(selection == 'byCategory'):
 			category = request.POST.get('byCategory')
-#			SQL query
+			pro = ProUsers()
+			response = pro.getUsers('Appliance', None)
+			for user in response:
+				print user.CompanyName
+				print user.Rating
 		print request
 	return render(request, 'indigoApp/pro.html')
 	

@@ -1,6 +1,7 @@
 #from keywordScrape import KeywordProvider
 from models import CategoryCustomerMap
 from models import Customers
+from django.shortcuts import get_object_or_404
 
 class ProUsers:
 
@@ -13,17 +14,26 @@ class ProUsers:
             return self.getUsersFromKeyword(keyword)
 
 
-    def getUsersFromCategory(categoryInput):
-        for categoryCustomer in CategoryCustomerMap.objects.filter(category=categoryInput):
-            customers = Customers.objects.filter(Id=categoryCustomer.CustomerId)
-            for customer in customers:
-                print customer.Name
+    def getUsersFromCategory(self, categoryInput):
+        print categoryInput
+        customers = []
+        categoryCustomers = CategoryCustomerMap.objects.filter(Category=categoryInput)
+        for categoryCustomer in categoryCustomers:
+            try:
+                customer = Customers.objects.get(id=categoryCustomer.CustomerId, IsAvailable=1, IsPro=1)
+                if customer:
+                    customers.append(customer)
+            except:
+                continue
+
+        customers.sort(key=lambda x: x.Rating, reverse=True)
+        return customers
+
+
+    def getUsersFromKeyword(self, keyword):
         return
 
-    def getUsersFromKeyword(keyword):
-        return
 
 
-
-ProUsers.getUsers(ProUsers, "Appliances", None)
+# ProUsers.getUsers(ProUsers, "Appliances", None)
 
