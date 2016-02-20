@@ -29,9 +29,10 @@ def pro(request):
 			context = {'response_obj' : response}
 			return render(request, 'indigoApp/pro.html', context)
 		elif(selection == 'byCategory'):
-			category = request.POST.get('byCategory')
-
-			response = pro.getUsers('bvCategory', None)
+			category = request.POST.get('hInput')
+			print category
+			pro = ProUsers()
+			response = pro.getUsers(category.lower(), None)
 			for user in response:
 				print user.CompanyName
 				print user.Rating
